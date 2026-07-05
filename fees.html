@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fees - Karate Club</title>
+    <title>Fees | Karate Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="contact-header-bar" aria-hidden="true"></div>
+
     <div class="content-wrapper">
         
-        <!-- 2. CLEANED: Sidebar without the extra side-nav wrapper -->
         <aside class="sidebar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                <li><a href="fees.html">Fees</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <img src="images/Mebuchan Goju Ryu.png" alt="Meibukan Goju-Ryu emblem" class="site-logo">
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="fees.html">Fees</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </aside>
 
         <main class="main-content">
             
-            <!-- 3. ADDED: This is the missing title! -->
             <h1>Fees</h1>
 
             <section class="page-text">
-                <h2>Membership Fees (2026/2027)</h2>
+                <h2><span style="white-space: nowrap;">Membership Fees (2026/2027)</span></h2>
                 <p>We believe in providing high-quality martial arts training at accessible rates for our military and local community.</p>
 
                 <h3>Regular Category</h3>
@@ -50,15 +53,21 @@
                     <li><strong>Standard Membership:</strong> $150.00 / year</li>
                 </ul>
 
-                <h2>Beginner Session Special Pricing</h2>
-                <p>Our Winter Session is just <strong>$30 per student</strong> or <strong>$60 per family</strong>.</p>
-                <p><strong>Family Bonus:</strong> Mothers and fathers train for FREE as long as a dependent (ages 7 - 12) joins the session with them!</p>
+                <div style="margin-top: 48px; padding: 32px; background-color: rgba(212, 175, 55, 0.05); border-left: 4px solid #D4AF37; border-radius: 4px;">
+                    <h2 style="margin-top: 0; border-bottom: none; padding-bottom: 0;">Beginner Session Special Pricing</h2>
+                    <p style="margin-top: 16px;">Our Winter Session is just <strong>$30 per student</strong> or <strong>$60 per family</strong>.</p>
+                    <p style="margin-bottom: 0; color: #1a1a1a;"><strong>Family Bonus:</strong> Mothers and fathers train for FREE as long as a dependent (ages 7 - 12) joins the session with them!</p>
+                </div>
             </section>
+
+            <footer class="contact-footer">
+                <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
+            </footer>
+
         </main>
     </div>
 
-    <footer class="contact-footer">
-        <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
-    </footer>
+    <script src="script.js"></script>
+
 </body>
 </html>

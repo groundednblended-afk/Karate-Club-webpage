@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes - Karate Club</title>
+    <title>Classes | Karate Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="contact-header-bar" aria-hidden="true"></div>
+
     <div class="content-wrapper">
         
-        <!-- 2. CLEANED: Sidebar without the extra side-nav wrapper -->
         <aside class="sidebar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                <li><a href="fees.html">Fees</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <img src="images/Mebuchan Goju Ryu.png" alt="Meibukan Goju-Ryu emblem" class="site-logo">
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="fees.html">Fees</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </aside>
 
-        <!-- 3. RESTORED: The main container that pushes your text 300px to the right! -->
         <main class="main-content">
             
-            <!-- RESTORED: Your white page title floating in the black bar -->
             <h1>Classes</h1>
             
             <section class="page-text">
                 <h2>Our Class Schedule</h2>
                 <p>We offer a structured class program focusing on traditional technique, sparring, and practical self-defense for both adults and juniors. Prospective students are welcome to attend <strong>two free classes (one week)</strong> to see if our style is the right fit. Please wear loose clothing or a Gi if you have one!</p>
 
-                <h3>Adults</h3>
+                <h3>Adults</h3> 
                 <ul>
                     <li><strong>Tuesdays & Thursdays:</strong> 1800 - 2000 hrs</li>
                     <li><strong>Saturdays:</strong> 1030 - 1200 hrs <em>(Weapons Training: 1200 - 1300 hrs)</em></li>
@@ -48,27 +50,20 @@
                 <p>Ready to start your journey? Join our specialized Winter Beginners Session, instructed by our 6th, 4th, and 2nd Degree Black Belts!</p>
                 <ul>
                     <li><strong>Session Dates:</strong> January 7th to March 27th <em>(First class starts Jan 9th)</em></li>
-                    <li><strong>Location:</strong> 19 Wing Fitness & Community Centre (Multipurpose Rooms B & C)</li>
-                    <li><strong>Eligibility:</strong> Open to all Military personnel, dependents, DND employees, and their families (Ages 7 to Adult).</li>
+<li><strong>Location:</strong> <span style="white-space: nowrap;">19 Wing Fitness & Community Centre (Multipurpose Rooms B & C)</span></li>                    <li><strong>Eligibility:</strong> Open to all Military personnel, dependents, DND employees, and their families (Ages 7 to Adult).</li>
                 </ul>
                 
-                <p>For full pricing details, see our <a href="fees.html">Fees page</a>.</p>
-                <ul>
-                    <li>Regular category single member $100.00/yr</li>
-                    <li>Regular category junior member $75.00/yr</li>
-                    <li>Regular category family rate $150.00/yr</li>
-                    <li>Ordinary category single member $115.00/yr</li>
-                    <li>Ordinary category junior member $90.00/yr</li>
-                    <li>Ordinary category family rate $180.00/yr</li>
-                    <li>Associate category membership $150.00/yr</li>
-                </ul>
+                <p style="margin-top: 32px;"><strong>For full pricing details, see our <a href="fees.html" style="color: #D4AF37; font-weight: 600; text-decoration: none;">Fees page →</a></strong></p>
             </section>
 
-        </main> <!-- Closes the restored main-content box -->
-    </div> <!-- Closes the content-wrapper -->
+            <footer class="contact-footer">
+                <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
+            </footer>
 
-    <footer class="contact-footer">
-        <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
-    </footer>
+        </main> 
+    </div> 
+
+    <script src="script.js"></script>
+
 </body>
 </html>

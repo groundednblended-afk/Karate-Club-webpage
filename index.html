@@ -6,16 +6,17 @@
     <title>Karate Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<video autoplay loop muted playsinline class="bg-video">
-        <source src="videos/karate-bg.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div class="contact-header-bar" aria-hidden="true"></div>
+
+<div class="hero-bg-image" aria-hidden="true"></div>
 
     <div class="content-wrapper">
         
         <aside class="sidebar">
+            <img src="images/Mebuchan Goju Ryu.png" alt="Meibukan Goju-Ryu emblem" class="site-logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -35,10 +36,19 @@
 
     <h2>The Art of Okinawa Goju Ryu</h2>
     <p>Unlike modern sport-focused martial arts, the Comox Traditional Karate Club teaches classical Okinawa Goju Ryu Karate-Do. Known as the "hard and soft" style, our training prioritizes practical self-defense, situational awareness, and deep personal development.</p>
-    <p>Beyond the physical workout, traditional karate is a powerful tool for sharpening the mind. Our dojo focuses on building resilience, deep concentration, and a quiet, grounded self-confidence that carries over into everyday life.</p>
 
-    <h2>Master Traditional Weapons</h2>
-    <p>Once students have built a strong foundation and successfully passed their first grading, training expands to include traditional Okinawan weapon forms, including the <em>Bo</em> (staff), <em>Sai</em>, and <em>Tonfa</em>.</p>
+    <div style="margin: 20px 0;">
+  <a href="classes.html" class="btn"
+     style="background:#FFCC00; color:#111; padding:12px 24px;
+            border-radius:6px; font-weight:700; margin-right:12px;">
+     View Class Schedule
+  </a>
+  <a href="contact.html" class="btn"
+     style="background:#111; color:#fff; padding:12px 24px;
+            border-radius:6px; font-weight:700;">
+     Contact Us
+  </a>
+</div>
 
     <h2>A Safe, Professional Environment</h2>
     <p>Your safety and privacy are our top priorities. To ensure the highest standard of instruction:</p>
@@ -50,25 +60,26 @@
 
     <h2>Try It For Free</h2>
     <p>Martial arts is a personal journey, and we want to make sure our dojo is the perfect fit for you. Prospective students are invited to join us for <strong>two free classes</strong> (one full week of training) absolutely risk-free.</p>
-    <ul>
+
+    <p>Beyond the physical workout, traditional karate is a powerful tool for sharpening the mind. Our dojo focuses on building resilience, deep concentration, and a quiet, grounded self-confidence that carries over into everyday life.</p>
+
+    <h2>Master Traditional Weapons</h2>
+    <p>Once students have built a strong foundation and successfully passed their first grading, training expands to include traditional Okinawan weapon forms, including the <em>Bo</em> (staff), <em>Sai</em>, and <em>Tonfa</em>.</p>
+
+ <ul>
         <li><strong>Location:</strong> 19 Wing Recreation Centre (Multi-Purpose Rooms B & C)</li>
         <li><strong>What to wear:</strong> Comfortable, loose-fitting athletic clothing, or a standard Karate Gi if you already own one.</li>
     </ul>
 </section>
 
+            <footer class="contact-footer">
+                <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
+            </footer>
+
         </main>
-    </div> <footer class="contact-footer">
-        <p>Karate Club | Call us at 555-1234 | Email: info@karateclub.com</p>
-    </footer>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
-
-<div class="modal" id="imageModal">
-  <span class="close-modal" id="closeModal">&times;</span>
-  <img class="modal-content" id="modalImg">
-</div>
-
- <script src="script.js"></script>
- <video autoplay loop muted playsinline class="bg-video" aria-hidden="true"></video>
-
 </html>
